@@ -186,10 +186,10 @@ https://www.postman.com/lzkhouloud/marketplace-microservices/collection/y2v3gkg/
 ## Screenshots
 
 ### Docker — Kafka and Zookeeper running
-![Docker](/proto/screenshots/docker-running.png)
+![Docker](screenshots/docker-running.png)
 
 ### All services running
-![Services](/proto/screenshots/services-running.png)
+![Services](screenshots/services-running.png)
 
 ### Postman tests
-![Postman](proto/screenshots/postman-test.png)
+![Postman](screenshots/postman-test.png)
