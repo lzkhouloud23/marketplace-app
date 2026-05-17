@@ -183,3 +183,13 @@ cd gateway && node index.js
 ## Postman Collection
 Public collection with all saved requests and responses:
 https://www.postman.com/lzkhouloud/marketplace-microservices/collection/y2v3gkg/marketplace-api
+## Screenshots
+
+### Docker — Kafka and Zookeeper running
+![Docker](screenshots/docker-running.png)
+
+### All services running
+![Services](screenshots/services-running.png)
+
+### Postman tests
+![Postman](screenshots/postman-test.png)
