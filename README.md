@@ -1,15 +1,15 @@
-# Marketplace App — Microservices Architecture
+# Marketplace App  Microservices Architecture
 
 A fully functional e-commerce marketplace built with Node.js microservices.
 
 ## Architecture
 
 The application is composed of:
-- **API Gateway** — single entry point (REST + GraphQL)
-- **Users Service** — handles registration and authentication
-- **Products Service** — handles product catalog and stock
-- **Notifications Service** — handles event-driven alerts via Kafka
-- **Kafka Broker** — async communication between services
+- **API Gateway** single entry point (REST + GraphQL)
+- **Users Service** handles registration and authentication
+- **Products Service**  handles product catalog and stock
+- **Notifications Service**  handles event-driven alerts via Kafka
+- **Kafka Broker**  async communication between services
 
 ## Tech Stack
 
@@ -147,7 +147,7 @@ deleteProduct(id: Int!): DeleteResult
 - Node.js v20+
 - Docker Desktop (running)
 
-### Step 1 — Install dependencies
+### Step 1  Install dependencies
 ```bash
 cd gateway && npm install && cd ..
 cd service-users && npm install && cd ..
@@ -155,12 +155,12 @@ cd service-products && npm install && cd ..
 cd service-notifications && npm install && cd ..
 ```
 
-### Step 2 — Start Kafka
+### Step 2  Start Kafka
 ```bash
 docker compose up -d
 ```
 
-### Step 3 — Start all services (4 separate terminals)
+### Step 3  Start all services (4 separate terminals)
 ```bash
 # Terminal 1
 cd service-users && node index.js
@@ -175,7 +175,7 @@ cd service-notifications && node index.js
 cd gateway && node index.js
 ```
 
-### Step 4 — Test the API
+### Step 4  Test the API
 - REST: http://localhost:3000/api/products
 - GraphQL: http://localhost:3000/graphql
 - Postman: https://www.postman.com/lzkhouloud/marketplace-microservices/collection/y2v3gkg/marketplace-api
